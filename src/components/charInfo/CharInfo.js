@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 import Spinner from "../spinner/Spinner";
@@ -90,7 +91,10 @@ const View = ({ char }) => {
           if (i > 9) return;
           return (
             <li key={i} className="char__comics-item">
-              {item.name}
+              {console.log(item)}
+              <Link to={"/comics/" + item.resourceURI.split("/")[6]}>
+                {item.name}
+              </Link>
             </li>
             //TODO: make links
           );
