@@ -16,6 +16,7 @@ const CharInfo = (props) => {
 
   useEffect(() => {
     updateCharacter();
+    // eslint-disable-next-line
   }, [props.charId]);
 
   const updateCharacter = () => {
@@ -96,7 +97,6 @@ const View = ({ char }) => {
                 {item.name}
               </Link>
             </li>
-            //TODO: make links
           );
         })}
       </ul>

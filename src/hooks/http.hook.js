@@ -32,7 +32,7 @@ export const useHttp = () => {
     },
     []
   );
-
+  // eslint-disable-next-line
   const clearError = useCallback(() => setError(null));
 
   return { loading, request, error, clearError };
