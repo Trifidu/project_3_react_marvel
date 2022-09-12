@@ -12,6 +12,7 @@
 - SCSS
 - JS
 - React
+- API
 
 ## Link
 
