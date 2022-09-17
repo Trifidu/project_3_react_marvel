@@ -16,4 +16,4 @@
 
 ## Link
 
-[versel-Marvel-API](https://project-3-react-marvel.vercel.app)
+[vercel-Marvel-API](https://project-3-react-marvel.vercel.app)
